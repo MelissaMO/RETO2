@@ -1,3 +1,4 @@
+  
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,8 @@ body {
     width: 230px;
     background-color: #fff;
     border-radius: 8px;
-
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .contenedor-nuevo {
@@ -36,6 +38,7 @@ body {
         background-color: hsl(216, 50%, 16%);
         border-radius: 8px;
         padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .down-text {
@@ -75,4 +78,34 @@ body {
     display: flex;
     align-items: center;
     text-indent: 0.5em;
+}
+
+.second-time {
+    color: hsl(214, 15%, 53%);
+    display: flex;
+    align-items: center;
+    text-indent: 0.5em;
+}
+hr {
+    border: 0.5px solid hsl(215, 32%, 27%);
+    width: 220px;
+}
+.pie-pagina {
+    margin-top: 8px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    text-indent: 0.5em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+}
+.primera-parte-frase{
+    color: hsl(214, 15%, 53%);
+}
+
+p {
+    color: #fff;
+}
+
+@media only screen and (min-width:375px) and (max-width:1440px){
 }
