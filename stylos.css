@@ -18,6 +18,8 @@ body {
 }
 
 .up-image {
+    
+    position: relative;
     background: url("./IMAGEN/image-equilibrium.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,16 +27,29 @@ body {
     width: 310px;
     background-color: #fff;
     border-radius: 10px;
+    transition: 0.1;
+    cursor:grab;
+
 }
 
+.up-image:hover {
+    opacity: 0.5;
+    background-color: aqua;
+    background-image: url("./IMAGEN/icon-view.svg");
+    width: 310px;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+
+
 .contenedor-nuevo {
-        height: 600px;
-        width: 350px;
+        width: 340px;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: hsl(216, 50%, 16%);
-        border-radius: 8px;
+        border-radius: 10px;
         padding: 20px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
